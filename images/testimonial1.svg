@@ -1,0 +1,11 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="40" fill="#667eea"/>
+  
+  <!-- Person silhouette -->
+  <circle cx="40" cy="30" r="12" fill="white"/>
+  <path d="M 20 65 Q 20 50 40 50 Q 60 50 60 65 L 60 80 L 20 80 Z" fill="white"/>
+  
+  <!-- Initial -->
+  <text x="40" y="47" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#667eea">SM</text>
+</svg>

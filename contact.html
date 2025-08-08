@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Greenwood Academy</title>
+    <meta name="description" content="Get in touch with Greenwood Academy - contact information, location, and inquiry form">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.svg" alt="Greenwood Academy" class="logo-img">
+                <span class="logo-text">Greenwood Academy</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="academics.html" class="nav-link">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link">Admissions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We're here to help and answer any questions you may have</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>123 Education Street<br>Learning City, LC 12345<br>United States</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>Main Office: (555) 123-4567<br>Admissions: (555) 123-4568<br>Fax: (555) 123-4569</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>General: info@greenwoodacademy.edu<br>Admissions: admissions@greenwoodacademy.edu<br>Support: support@greenwoodacademy.edu</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="form-container">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="admissions">Admissions Inquiry</option>
+                                <option value="academics">Academic Programs</option>
+                                <option value="financial-aid">Financial Aid</option>
+                                <option value="campus-tour">Campus Tour Request</option>
+                                <option value="general">General Information</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Please provide details about your inquiry..."></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">I would like to receive updates and newsletters from Greenwood Academy</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="map-container">
+                    <h2>Find Us</h2>
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h3>Greenwood Academy</h3>
+                            <p>123 Education Street<br>Learning City, LC 12345</p>
+                            <a href="https://maps.google.com" target="_blank" class="btn btn-secondary">Get Directions</a>
+                        </div>
+                    </div>
+                    <div class="transportation-info">
+                        <h3>Transportation</h3>
+                        <ul>
+                            <li><i class="fas fa-bus"></i> Bus routes 15, 22, and 45</li>
+                            <li><i class="fas fa-subway"></i> Metro Green Line - Education Station</li>
+                            <li><i class="fas fa-car"></i> Free parking available on campus</li>
+                            <li><i class="fas fa-bicycle"></i> Bike racks and storage available</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Department Contacts -->
+    <section class="department-contacts">
+        <div class="container">
+            <h2 class="section-title">Department Contacts</h2>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Administration</h3>
+                    <p><strong>Dr. Sarah Johnson</strong><br>Principal</p>
+                    <p><i class="fas fa-envelope"></i> principal@greenwoodacademy.edu</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4570</p>
+                </div>
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Admissions</h3>
+                    <p><strong>Ms. Jennifer Martinez</strong><br>Admissions Director</p>
+                    <p><i class="fas fa-envelope"></i> admissions@greenwoodacademy.edu</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4568</p>
+                </div>
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Academics</h3>
+                    <p><strong>Dr. Emily Rodriguez</strong><br>Academic Director</p>
+                    <p><i class="fas fa-envelope"></i> academics@greenwoodacademy.edu</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4571</p>
+                </div>
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Financial Aid</h3>
+                    <p><strong>Mr. David Thompson</strong><br>Financial Aid Officer</p>
+                    <p><i class="fas fa-envelope"></i> financialaid@greenwoodacademy.edu</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4572</p>
+                </div>
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Athletics</h3>
+                    <p><strong>Coach Maria Santos</strong><br>Athletic Director</p>
+                    <p><i class="fas fa-envelope"></i> athletics@greenwoodacademy.edu</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4573</p>
+                </div>
+                <div class="department-card">
+                    <div class="department-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Arts</h3>
+                    <p><strong>Ms. Lisa Chen</strong><br>Arts Department Head</p>
+                    <p><i class="fas fa-envelope"></i> arts@greenwoodacademy.edu</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4574</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your school hours?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our school day runs from 8:00 AM to 3:30 PM for all grade levels. Extended care is available from 7:00 AM to 6:00 PM for an additional fee.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide transportation?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer bus transportation to various neighborhoods throughout the city. Please contact our office for specific route information and fees.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your student-teacher ratio?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We maintain a low student-teacher ratio of 12:1 to ensure personalized attention and optimal learning outcomes for every student.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer financial aid?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer need-based financial aid and merit scholarships. Approximately 30% of our students receive some form of financial assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Greenwood Academy</h3>
+                    <p>Committed to providing exceptional education and fostering the growth of future leaders.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, Learning City, LC 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@greenwoodacademy.edu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Greenwood Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

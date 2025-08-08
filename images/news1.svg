@@ -1,0 +1,45 @@
+<svg width="350" height="200" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="350" height="200" fill="#3498db"/>
+
+  <!-- Science Equipment -->
+  <!-- Microscope -->
+  <rect x="80" y="90" width="40" height="60" fill="white" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="100" cy="80" r="15" fill="#34495e"/>
+  <circle cx="100" cy="80" r="8" fill="#3498db"/>
+
+  <!-- Beaker with liquid -->
+  <rect x="160" y="80" width="30" height="40" fill="white" stroke="#2c3e50" stroke-width="2" rx="3"/>
+  <rect x="165" y="100" width="20" height="15" fill="#27ae60"/>
+  <rect x="175" y="75" width="10" height="10" fill="white" stroke="#2c3e50" stroke-width="1"/>
+
+  <!-- Test tubes rack -->
+  <rect x="220" y="100" width="60" height="30" fill="#8b4513"/>
+  <rect x="230" y="70" width="6" height="40" fill="white" stroke="#2c3e50" stroke-width="1" rx="3"/>
+  <rect x="240" y="75" width="6" height="35" fill="white" stroke="#2c3e50" stroke-width="1" rx="3"/>
+  <rect x="250" y="80" width="6" height="30" fill="white" stroke="#2c3e50" stroke-width="1" rx="3"/>
+  <rect x="260" y="75" width="6" height="35" fill="white" stroke="#2c3e50" stroke-width="1" rx="3"/>
+
+  <!-- Test tube liquids -->
+  <rect x="232" y="85" width="2" height="20" fill="#e74c3c"/>
+  <rect x="242" y="90" width="2" height="15" fill="#f39c12"/>
+  <rect x="252" y="95" width="2" height="10" fill="#9b59b6"/>
+  <rect x="262" y="90" width="2" height="15" fill="#1abc9c"/>
+
+  <!-- Molecular structure -->
+  <circle cx="50" cy="60" r="6" fill="white"/>
+  <circle cx="70" cy="50" r="6" fill="white"/>
+  <circle cx="60" cy="80" r="6" fill="white"/>
+  <line x1="50" y1="66" x2="60" y2="74" stroke="white" stroke-width="2"/>
+  <line x1="56" y1="56" x2="64" y2="56" stroke="white" stroke-width="2"/>
+
+  <!-- Award ribbon -->
+  <circle cx="300" cy="60" r="20" fill="#f1c40f"/>
+  <rect x="295" y="75" width="10" height="25" fill="#e67e22"/>
+  <polygon points="295,100 300,95 305,100" fill="#d35400"/>
+  <text x="300" y="67" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">1st</text>
+
+  <!-- Title -->
+  <text x="175" y="160" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">Science Fair 2024</text>
+  <text x="175" y="180" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Innovation &amp; Discovery</text>
+</svg>

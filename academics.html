@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics - Greenwood Academy</title>
+    <meta name="description" content="Explore our comprehensive academic programs and curriculum at Greenwood Academy">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.svg" alt="Greenwood Academy" class="logo-img">
+                <span class="logo-text">Greenwood Academy</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="academics.html" class="nav-link active">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link">Admissions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Academic Excellence</h1>
+            <p>Comprehensive programs designed to challenge and inspire every student</p>
+        </div>
+    </section>
+
+    <!-- Academic Programs -->
+    <section class="academic-programs">
+        <div class="container">
+            <h2 class="section-title">Our Academic Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Elementary School</h3>
+                    <p class="grade-range">Grades K-5</p>
+                    <p>Building strong foundations in literacy, numeracy, and critical thinking through hands-on learning and exploration.</p>
+                    <ul class="program-features">
+                        <li>Small class sizes (15 students max)</li>
+                        <li>Integrated STEAM curriculum</li>
+                        <li>Character development program</li>
+                        <li>Foreign language introduction</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Middle School</h3>
+                    <p class="grade-range">Grades 6-8</p>
+                    <p>Preparing students for high school success with challenging academics and personal growth opportunities.</p>
+                    <ul class="program-features">
+                        <li>Advanced placement preparation</li>
+                        <li>Leadership development</li>
+                        <li>Technology integration</li>
+                        <li>Comprehensive arts program</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>High School</h3>
+                    <p class="grade-range">Grades 9-12</p>
+                    <p>College preparatory curriculum with Advanced Placement courses and International Baccalaureate options.</p>
+                    <ul class="program-features">
+                        <li>25+ AP courses available</li>
+                        <li>IB Diploma Programme</li>
+                        <li>College counseling</li>
+                        <li>Internship opportunities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Highlights -->
+    <section class="curriculum">
+        <div class="container">
+            <h2 class="section-title">Curriculum Highlights</h2>
+            <div class="curriculum-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="stem">STEM</button>
+                    <button class="tab-btn" data-tab="humanities">Humanities</button>
+                    <button class="tab-btn" data-tab="arts">Arts</button>
+                    <button class="tab-btn" data-tab="languages">Languages</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-panel active" id="stem">
+                        <div class="curriculum-content">
+                            <div class="curriculum-text">
+                                <h3>Science, Technology, Engineering & Mathematics</h3>
+                                <p>Our STEM program emphasizes hands-on learning, critical thinking, and real-world problem solving. Students engage with cutting-edge technology and conduct original research.</p>
+                                <ul>
+                                    <li>State-of-the-art laboratories</li>
+                                    <li>Robotics and coding programs</li>
+                                    <li>Science fair competitions</li>
+                                    <li>Partnership with local universities</li>
+                                    <li>Advanced mathematics through Calculus BC</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-image">
+                                <img src="images/stem-lab.svg" alt="STEM Laboratory">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-panel" id="humanities">
+                        <div class="curriculum-content">
+                            <div class="curriculum-text">
+                                <h3>Humanities & Social Sciences</h3>
+                                <p>Our humanities program develops critical thinking, communication skills, and cultural awareness through literature, history, and social studies.</p>
+                                <ul>
+                                    <li>Advanced Placement courses in History and Literature</li>
+                                    <li>Model United Nations program</li>
+                                    <li>Debate and public speaking</li>
+                                    <li>Philosophy and ethics courses</li>
+                                    <li>Community service learning</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-image">
+                                <img src="images/library.svg" alt="School Library">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-panel" id="arts">
+                        <div class="curriculum-content">
+                            <div class="curriculum-text">
+                                <h3>Visual & Performing Arts</h3>
+                                <p>Our comprehensive arts program nurtures creativity and self-expression through various mediums and performance opportunities.</p>
+                                <ul>
+                                    <li>Visual arts studio with digital media</li>
+                                    <li>Music program with multiple ensembles</li>
+                                    <li>Theater productions and drama classes</li>
+                                    <li>Dance and movement programs</li>
+                                    <li>Annual arts showcase</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-image">
+                                <img src="images/arts-studio.svg" alt="Arts Studio">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-panel" id="languages">
+                        <div class="curriculum-content">
+                            <div class="curriculum-text">
+                                <h3>World Languages</h3>
+                                <p>Our language program promotes global citizenship and cultural understanding through immersive learning experiences.</p>
+                                <ul>
+                                    <li>Spanish, French, Mandarin, and Latin</li>
+                                    <li>Native speaker instructors</li>
+                                    <li>Cultural exchange programs</li>
+                                    <li>International travel opportunities</li>
+                                    <li>Language immersion camps</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-image">
+                                <img src="images/language-class.svg" alt="Language Classroom">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Programs -->
+    <section class="special-programs">
+        <div class="container">
+            <h2 class="section-title">Special Programs</h2>
+            <div class="programs-showcase">
+                <div class="showcase-item">
+                    <div class="showcase-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Gifted & Talented Program</h3>
+                    <p>Accelerated learning opportunities for academically advanced students with enrichment activities and independent research projects.</p>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Learning Support Services</h3>
+                    <p>Individualized support for students with diverse learning needs, ensuring every student reaches their full potential.</p>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Global Studies Program</h3>
+                    <p>International perspective through cultural studies, exchange programs, and partnerships with schools worldwide.</p>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Digital Citizenship</h3>
+                    <p>Comprehensive technology education focusing on responsible use, digital literacy, and 21st-century skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Calendar -->
+    <section class="academic-calendar">
+        <div class="container">
+            <h2 class="section-title">Academic Calendar 2024-2025</h2>
+            <div class="calendar-grid">
+                <div class="calendar-item">
+                    <div class="calendar-date">
+                        <span class="month">Aug</span>
+                        <span class="day">26</span>
+                    </div>
+                    <div class="calendar-event">
+                        <h4>First Day of School</h4>
+                        <p>Welcome back students and families!</p>
+                    </div>
+                </div>
+                <div class="calendar-item">
+                    <div class="calendar-date">
+                        <span class="month">Nov</span>
+                        <span class="day">25-29</span>
+                    </div>
+                    <div class="calendar-event">
+                        <h4>Thanksgiving Break</h4>
+                        <p>School closed for Thanksgiving holiday</p>
+                    </div>
+                </div>
+                <div class="calendar-item">
+                    <div class="calendar-date">
+                        <span class="month">Dec</span>
+                        <span class="day">20</span>
+                    </div>
+                    <div class="calendar-event">
+                        <h4>Winter Break Begins</h4>
+                        <p>Last day before winter holidays</p>
+                    </div>
+                </div>
+                <div class="calendar-item">
+                    <div class="calendar-date">
+                        <span class="month">Jan</span>
+                        <span class="day">8</span>
+                    </div>
+                    <div class="calendar-event">
+                        <h4>Classes Resume</h4>
+                        <p>Return from winter break</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Greenwood Academy</h3>
+                    <p>Committed to providing exceptional education and fostering the growth of future leaders.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, Learning City, LC 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@greenwoodacademy.edu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Greenwood Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

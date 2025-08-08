@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Greenwood Academy</title>
+    <meta name="description" content="Learn about the admissions process and requirements for Greenwood Academy">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.svg" alt="Greenwood Academy" class="logo-img">
+                <span class="logo-text">Greenwood Academy</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="academics.html" class="nav-link">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link active">Admissions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Join our community of learners and leaders</p>
+        </div>
+    </section>
+
+    <!-- Admissions Process -->
+    <section class="admissions-process">
+        <div class="container">
+            <h2 class="section-title">Admissions Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Submit Application</h3>
+                        <p>Complete our online application form with all required documents and information.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Campus Visit</h3>
+                        <p>Schedule a campus tour and meet with our admissions team to learn more about our programs.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Assessment & Interview</h3>
+                        <p>Participate in age-appropriate assessments and interviews with faculty members.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Admission Decision</h3>
+                        <p>Receive your admission decision and enrollment information within two weeks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Requirements -->
+    <section class="requirements">
+        <div class="container">
+            <h2 class="section-title">Application Requirements</h2>
+            <div class="requirements-grid">
+                <div class="requirement-card">
+                    <div class="requirement-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Application Form</h3>
+                    <ul>
+                        <li>Completed online application</li>
+                        <li>Student information and interests</li>
+                        <li>Parent/guardian information</li>
+                        <li>Emergency contacts</li>
+                    </ul>
+                </div>
+                <div class="requirement-card">
+                    <div class="requirement-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>Academic Records</h3>
+                    <ul>
+                        <li>Previous school transcripts</li>
+                        <li>Standardized test scores (if applicable)</li>
+                        <li>Teacher recommendations</li>
+                        <li>Academic portfolio (for certain grades)</li>
+                    </ul>
+                </div>
+                <div class="requirement-card">
+                    <div class="requirement-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>Student essay or personal statement</li>
+                        <li>Extracurricular activities list</li>
+                        <li>Character references</li>
+                        <li>Special talents or achievements</li>
+                    </ul>
+                </div>
+                <div class="requirement-card">
+                    <div class="requirement-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Additional Documents</h3>
+                    <ul>
+                        <li>Birth certificate</li>
+                        <li>Immunization records</li>
+                        <li>Photo identification</li>
+                        <li>Application fee ($100)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tuition & Financial Aid -->
+    <section class="tuition">
+        <div class="container">
+            <h2 class="section-title">Tuition & Financial Aid</h2>
+            <div class="tuition-content">
+                <div class="tuition-table">
+                    <h3>2024-2025 Tuition Rates</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Grade Level</th>
+                                <th>Annual Tuition</th>
+                                <th>Registration Fee</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kindergarten - Grade 2</td>
+                                <td>$18,500</td>
+                                <td>$500</td>
+                            </tr>
+                            <tr>
+                                <td>Grades 3 - 5</td>
+                                <td>$20,500</td>
+                                <td>$500</td>
+                            </tr>
+                            <tr>
+                                <td>Grades 6 - 8</td>
+                                <td>$22,500</td>
+                                <td>$750</td>
+                            </tr>
+                            <tr>
+                                <td>Grades 9 - 12</td>
+                                <td>$25,500</td>
+                                <td>$750</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="financial-aid">
+                    <h3>Financial Aid</h3>
+                    <p>We believe that a quality education should be accessible to all qualified students. Our financial aid program provides need-based assistance to families who demonstrate financial need.</p>
+                    <ul>
+                        <li>Need-based scholarships available</li>
+                        <li>Merit-based awards for exceptional students</li>
+                        <li>Payment plans available</li>
+                        <li>Sibling discounts offered</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Apply for Financial Aid</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates -->
+    <section class="important-dates">
+        <div class="container">
+            <h2 class="section-title">Important Dates</h2>
+            <div class="dates-grid">
+                <div class="date-card">
+                    <div class="date-info">
+                        <span class="date-month">Oct</span>
+                        <span class="date-day">15</span>
+                    </div>
+                    <div class="date-content">
+                        <h3>Application Opens</h3>
+                        <p>Online applications become available for the 2025-2026 school year</p>
+                    </div>
+                </div>
+                <div class="date-card">
+                    <div class="date-info">
+                        <span class="date-month">Jan</span>
+                        <span class="date-day">15</span>
+                    </div>
+                    <div class="date-content">
+                        <h3>Application Deadline</h3>
+                        <p>Final deadline for submitting completed applications</p>
+                    </div>
+                </div>
+                <div class="date-card">
+                    <div class="date-info">
+                        <span class="date-month">Feb</span>
+                        <span class="date-day">1</span>
+                    </div>
+                    <div class="date-content">
+                        <h3>Financial Aid Deadline</h3>
+                        <p>Last day to submit financial aid applications</p>
+                    </div>
+                </div>
+                <div class="date-card">
+                    <div class="date-info">
+                        <span class="date-month">Mar</span>
+                        <span class="date-day">15</span>
+                    </div>
+                    <div class="date-content">
+                        <h3>Admission Decisions</h3>
+                        <p>Families receive admission decisions and enrollment packets</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form">
+        <div class="container">
+            <h2 class="section-title">Start Your Application</h2>
+            <div class="form-container">
+                <form class="admission-form" id="admissionForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="studentName">Student Name *</label>
+                            <input type="text" id="studentName" name="studentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="grade">Applying for Grade *</label>
+                            <select id="grade" name="grade" required>
+                                <option value="">Select Grade</option>
+                                <option value="K">Kindergarten</option>
+                                <option value="1">Grade 1</option>
+                                <option value="2">Grade 2</option>
+                                <option value="3">Grade 3</option>
+                                <option value="4">Grade 4</option>
+                                <option value="5">Grade 5</option>
+                                <option value="6">Grade 6</option>
+                                <option value="7">Grade 7</option>
+                                <option value="8">Grade 8</option>
+                                <option value="9">Grade 9</option>
+                                <option value="10">Grade 10</option>
+                                <option value="11">Grade 11</option>
+                                <option value="12">Grade 12</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parentName">Parent/Guardian Name *</label>
+                            <input type="text" id="parentName" name="parentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="currentSchool">Current School</label>
+                            <input type="text" id="currentSchool" name="currentSchool">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="interests">Student Interests & Activities</label>
+                        <textarea id="interests" name="interests" rows="4" placeholder="Please describe your child's interests, hobbies, and extracurricular activities..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="questions">Questions or Comments</label>
+                        <textarea id="questions" name="questions" rows="3" placeholder="Any questions about our programs or the admissions process?"></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">I would like to receive updates about Greenwood Academy</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Greenwood Academy</h3>
+                    <p>Committed to providing exceptional education and fostering the growth of future leaders.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, Learning City, LC 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@greenwoodacademy.edu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Greenwood Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

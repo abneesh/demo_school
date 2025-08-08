@@ -1,0 +1,70 @@
+<svg width="1000" height="400" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="facility3Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="400" fill="url(#facility3Gradient)"/>
+  
+  <!-- Sports Gymnasium -->
+  <!-- Basketball Court -->
+  <rect x="100" y="150" width="800" height="200" fill="#f39c12" stroke="white" stroke-width="3"/>
+  
+  <!-- Center Circle -->
+  <circle cx="500" cy="250" r="50" fill="none" stroke="white" stroke-width="3"/>
+  <circle cx="500" cy="250" r="10" fill="white"/>
+  
+  <!-- Basketball Hoops -->
+  <rect x="90" y="220" width="20" height="60" fill="#8b4513"/>
+  <rect x="85" y="235" width="15" height="5" fill="#ff6b6b"/>
+  <circle cx="92" cy="237" r="8" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+  
+  <rect x="890" y="220" width="20" height="60" fill="#8b4513"/>
+  <rect x="900" y="235" width="15" height="5" fill="#ff6b6b"/>
+  <circle cx="907" cy="237" r="8" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+  
+  <!-- Court Lines -->
+  <line x1="500" y1="150" x2="500" y2="350" stroke="white" stroke-width="2"/>
+  <rect x="100" y="200" width="100" height="100" fill="none" stroke="white" stroke-width="2"/>
+  <rect x="800" y="200" width="100" height="100" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Bleachers -->
+  <rect x="50" y="100" width="30" height="40" fill="#34495e"/>
+  <rect x="50" y="90" width="30" height="10" fill="#2c3e50"/>
+  <rect x="50" y="80" width="30" height="10" fill="#2c3e50"/>
+  <rect x="50" y="70" width="30" height="10" fill="#2c3e50"/>
+  
+  <rect x="920" y="100" width="30" height="40" fill="#34495e"/>
+  <rect x="920" y="90" width="30" height="10" fill="#2c3e50"/>
+  <rect x="920" y="80" width="30" height="10" fill="#2c3e50"/>
+  <rect x="920" y="70" width="30" height="10" fill="#2c3e50"/>
+  
+  <!-- Scoreboard -->
+  <rect x="450" y="50" width="100" height="60" fill="#2c3e50"/>
+  <rect x="460" y="60" width="35" height="20" fill="#27ae60"/>
+  <text x="477" y="73" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">HOME</text>
+  <text x="477" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">85</text>
+  
+  <rect x="505" y="60" width="35" height="20" fill="#e74c3c"/>
+  <text x="522" y="73" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">AWAY</text>
+  <text x="522" y="90" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">78</text>
+  
+  <!-- Ceiling Lights -->
+  <circle cx="250" cy="30" r="15" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="500" cy="30" r="15" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="750" cy="30" r="15" fill="rgba(255,255,255,0.8)"/>
+  
+  <!-- Equipment Storage -->
+  <rect x="20" y="300" width="60" height="50" fill="#95a5a6"/>
+  <circle cx="35" cy="315" r="8" fill="#f39c12"/>
+  <circle cx="50" cy="315" r="8" fill="#f39c12"/>
+  <circle cx="65" cy="315" r="8" fill="#f39c12"/>
+  <rect x="30" y="330" width="30" height="15" fill="#3498db"/>
+  
+  <!-- Text -->
+  <text x="500" y="380" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">Sports Gymnasium</text>
+  <text x="500" y="395" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="rgba(255,255,255,0.9)">Multi-purpose athletic facility for all sports activities</text>
+</svg>

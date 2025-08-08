@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenwood Academy - Excellence in Education</title>
+    <meta name="description" content="Greenwood Academy - A premier educational institution committed to academic excellence and character development">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.svg" alt="Greenwood Academy" class="logo-img">
+                <span class="logo-text">Greenwood Academy</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="academics.html" class="nav-link">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a href="admissions.html" class="nav-link">Admissions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Greenwood Academy</h1>
+            <p class="hero-subtitle">Nurturing minds, building futures, creating leaders of tomorrow</p>
+            <div class="hero-buttons">
+                <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+                <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-school.svg" alt="Greenwood Academy Campus">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Greenwood Academy?</h2>
+            <div class="features-grid">
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon floating">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Excellence</h3>
+                    <p>Our rigorous curriculum and dedicated faculty ensure students achieve their highest potential.</p>
+                </div>
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon floating">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Small Class Sizes</h3>
+                    <p>Personalized attention with a student-teacher ratio of 12:1 for optimal learning outcomes.</p>
+                </div>
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon floating">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Extracurricular Activities</h3>
+                    <p>Over 50 clubs and activities to help students discover their passions and talents.</p>
+                </div>
+                <div class="feature-card fade-in-up">
+                    <div class="feature-icon floating">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Modern Facilities</h3>
+                    <p>State-of-the-art laboratories, library, sports facilities, and technology resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Events -->
+    <section class="news-events">
+        <div class="container">
+            <h2 class="section-title">Latest News & Events</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="images/news1.svg" alt="Science Fair">
+                    <div class="news-content">
+                        <span class="news-date">March 15, 2024</span>
+                        <h3>Annual Science Fair Winners Announced</h3>
+                        <p>Congratulations to our brilliant students who showcased innovative projects at this year's science fair.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="images/news2.svg" alt="Sports Championship">
+                    <div class="news-content">
+                        <span class="news-date">March 10, 2024</span>
+                        <h3>Basketball Team Wins Regional Championship</h3>
+                        <p>Our varsity basketball team brings home the regional championship trophy after an outstanding season.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="images/news3.svg" alt="New Building">
+                    <div class="news-content">
+                        <span class="news-date">March 5, 2024</span>
+                        <h3>New STEM Building Opens</h3>
+                        <p>State-of-the-art STEM facility now open, featuring advanced laboratories and collaborative spaces.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1200">0</span>
+                    <span class="stat-label">Students</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="85">0</span>
+                    <span class="stat-label">Faculty Members</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="98">0</span>
+                    <span class="stat-label">% College Acceptance</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span class="stat-label">Years of Excellence</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Community Says</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-header">
+                                <img src="images/testimonial1.svg" alt="Sarah Mitchell" class="testimonial-avatar">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left">❝</i>
+                                </div>
+                            </div>
+                            <p>"Greenwood Academy has provided my daughter with an exceptional education. The teachers are dedicated, and the small class sizes ensure personalized attention. She's thriving academically and socially."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Sarah Mitchell</h4>
+                                    <span>Parent of Emma (Grade 10)</span>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-header">
+                                <img src="images/testimonial2.svg" alt="Alex Chen" class="testimonial-avatar">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left">❝</i>
+                                </div>
+                            </div>
+                            <p>"The STEM program at Greenwood Academy is outstanding! I've learned so much through hands-on experiments and projects. The teachers encourage us to think critically and pursue our passions."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Alex Chen</h4>
+                                    <span>Student, Grade 11</span>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-header">
+                                <img src="images/testimonial3.svg" alt="Michael Rodriguez" class="testimonial-avatar">
+                                <div class="quote-icon">
+                                    <i class="fas fa-quote-left">❝</i>
+                                </div>
+                            </div>
+                            <p>"As an alumnus, I can confidently say that Greenwood Academy prepared me well for college and beyond. The values and skills I learned here continue to guide me in my career as a software engineer."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>Michael Rodriguez</h4>
+                                    <span>Alumni, Class of 2018</span>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button class="testimonial-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Carousel -->
+    <section class="image-carousel">
+        <div class="container">
+            <h2 class="section-title">Our World-Class Facilities</h2>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <img src="images/facility1.svg" alt="Modern Library">
+                        <div class="carousel-overlay">
+                            <h3>Modern Library</h3>
+                            <p>State-of-the-art learning resources and quiet study spaces for academic excellence</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/facility2.svg" alt="STEM Laboratory">
+                        <div class="carousel-overlay">
+                            <h3>STEM Laboratory</h3>
+                            <p>Advanced equipment for hands-on scientific exploration and innovation</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/facility3.svg" alt="Sports Gymnasium">
+                        <div class="carousel-overlay">
+                            <h3>Sports Gymnasium</h3>
+                            <p>Multi-purpose athletic facility for all sports activities and physical education</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-controls carousel-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-controls carousel-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-indicators">
+                    <span class="carousel-indicator active"></span>
+                    <span class="carousel-indicator"></span>
+                    <span class="carousel-indicator"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Greenwood Academy</h3>
+                    <p>Committed to providing exceptional education and fostering the growth of future leaders.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, Learning City, LC 12345</p>
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@greenwoodacademy.edu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Greenwood Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
